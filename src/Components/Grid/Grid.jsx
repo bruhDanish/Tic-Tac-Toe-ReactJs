@@ -15,7 +15,7 @@ function Grid({numberOfCards}){
             board[index] = 'X';
         }
 
-        let updateBoard = [...board];
+         let updateBoard = [...board];
 
         const win = isWinner(updateBoard, turn ? 'O' : 'X');
         if(win){

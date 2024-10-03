@@ -15,7 +15,7 @@ function isWinner(board, symbol) {
     if(board[2] == board[4]  && board[4] == board[6]  && board[4] == symbol) return symbol;
 
     // check if there is a tie
-    if(board.filter((el) => el === "").length === 0) return alert("It's a tie!");
+    if(board.filter((el) => el === "").length === 0) return alert("It's a tie!, Click Reset Game to play again");
 
     return "";
 }
