@@ -1,0 +1,14 @@
+:root{
+    --yellow: #ffc107;
+}
+
+body{
+    margin-top: 2rem;
+    height: 80vh;
+    background-color: #141313;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reset{
+    padding: 10px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+    cursor: pointer;
+}
